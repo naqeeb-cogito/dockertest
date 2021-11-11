@@ -2,4 +2,6 @@ FROM alpine:latest
 
 RUN echo "building"
 
-CMD ["sleep","6000"]
+COPY . .
+
+CMD ["start.sh"]
