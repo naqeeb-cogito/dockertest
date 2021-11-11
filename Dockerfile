@@ -4,4 +4,4 @@ RUN echo "building"
 
 COPY . .
 
-CMD ["start.sh"]
+CMD ["./start.sh"]
